@@ -1,0 +1,1 @@
+cmd_/home/ayush/CS-5250/assignment3/hello_world_module.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/ayush/CS-5250/assignment3/hello_world_module.ko /home/ayush/CS-5250/assignment3/hello_world_module.o /home/ayush/CS-5250/assignment3/hello_world_module.mod.o ;  true
