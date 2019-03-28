@@ -1,0 +1,1 @@
+cmd_/home/ayush/CS-5250/assignment3/one_char_device/one_char_device.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/ayush/CS-5250/assignment3/one_char_device/one_char_device.ko /home/ayush/CS-5250/assignment3/one_char_device/one_char_device.o /home/ayush/CS-5250/assignment3/one_char_device/one_char_device.mod.o ;  true

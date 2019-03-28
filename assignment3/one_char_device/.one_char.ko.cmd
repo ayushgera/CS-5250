@@ -1,0 +1,1 @@
+cmd_/home/ayush/CS-5250/assignment3/one_char/one_char.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/ayush/CS-5250/assignment3/one_char/one_char.ko /home/ayush/CS-5250/assignment3/one_char/one_char.o /home/ayush/CS-5250/assignment3/one_char/one_char.mod.o ;  true
